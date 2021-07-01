@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build-tailwind": "jekyll build --config _config.yml,_config_tailwind.yml"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "postcss-import": "^14.0.2",
+    "remove": "^0.1.5",
+    "tailwindcss": "^2.2.2"
+  }
+}
