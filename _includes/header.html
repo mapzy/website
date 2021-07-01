@@ -2,9 +2,11 @@
 <div class="flex flex-row items-center justify-between w-full py-4 px-8 mb-12">
   <img src="{{ "/assets/images/mapzy_logo.png" | relative_url }}" class="w-20"/>
   <nav class="flex flex-row items-center justify-end w-full">
-    <a href="" class="mx-4">Features</a>
-    <a href="" class="mx-4">Pricing</a>
-    <a href="" class="mx-4">About</a>
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" class="mx-4" >
+        {{ item.name }}
+      </a>
+    {% endfor %}
     <a href="" class="mx-4">Sign in</a>
     <a href="" class="button-main mx-4">Start free trial</a>
   </nav>
