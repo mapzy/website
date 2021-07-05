@@ -7,10 +7,11 @@
     </div>
     <div class="bg-mapzy-violet text-white flex flex-row items-center justify-center w-full mb-4">
       <div class="flex flex-row items-center justify-center">
-        <a href="" class="mx-4">Privacy Policy</a>
-        <a href="" class="mx-4">Terms</a>
-        <a href="" class="mx-4">Imprint</a>
-        <a href="" class="mx-4">Right of Withdrawal</a>
+        {% for item in site.data.navigation_footer %}
+          <a href="{{ item.link }}" class="mx-4" >
+            {{ item.name }}
+          </a>
+        {% endfor %}
       </div>
     </div>
     <div class="w-full text-center mb-4">
