@@ -1,0 +1,42 @@
+---
+layout: page
+title: "Pricing"
+---
+
+<div class="text-center">
+  <p class="my-4">
+    We offer a 2-week free trial without asking for your credit card on all plans. You get access to all features on each plan, the only difference between the plans is how many locations you can add. Your plan is automatically upgraded or downgraded based on how many active locations you add.
+  </p>
+</div>
+
+<div class="flex flex-row justify-center items-center my-4 w-full">
+  {% for pricing in site.data.pricing %}
+    {% include single_pricing.html
+      name=pricing.name
+      price=pricing.price
+      locations=pricing.locations
+    %}
+  {% endfor %}
+</div>
+
+<div class="flex flex-col w-full items-center justify-center text-center mt-4">
+  <a href="" class="button-main my-4">Start free trial</a>
+</div>
+
+<div class="text-xl mt-6 font-medium">
+    Included with all plans:
+</div>
+
+<div class="flex flex-row flex-wrap justify-center items-center my-2 w-full">
+
+  {% for feature in site.data.features %}
+    {% include single_feature_preview.html
+      title=feature.title
+      summary=feature.summary
+    %}
+  {% endfor %}
+</div>
+
+<p class="text text-gray-600 mb-4">
+  <a href="/features">Learn more about the features</a>
+</p>

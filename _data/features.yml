@@ -1,0 +1,18 @@
+- title: Add locations
+  description: "With the Mapzy dashboard, you can add any location to your map by entering the address or the coordinates. For each location, you can add a description and opening times. While we call Mapzy a store finder, there's no restrictions on what type of locations you can add. Restaurants, events, points of interest? Go wild!"
+  summary: "Add any location by entering the address or the coordinates."
+  image_path: "/assets/images/mapzy_map.png"
+- title: Embed your map
+  description: "Embedding your map on your own website is a piece of cake. Just copy the displayed embed code and paste it in your website where you want your map to appear. Mapyz works with any website where you can add HTML - Shopify, Webflow, Squarespace - anything, really."
+  summary: "Simply copy the embed code and paste it in your website to display your map."
+  image_path: "/assets/images/mapzy_map.png"
+- title: Privacy-friendly
+  description: "We've buit Mapzy with privacy in mind. We don't track your visitors and we only set one essential cookie (to see see if the visitor has already granted location permission). Mapzy is fully compliant with GDPR, and you don't need to show an ugly cookie banner (at least, not because of Mapzy). We host Mapzy in a data center in Frankfurt, Germany, which is powered by 100% renewable energy. We guarantee that your data doesn't leave the EU."
+  summary: "We never track your visitors and only set essential cookies. No GDPR cookie banner needed!"
+- title: No-code
+  description: "Simplicity is key. Using the Mapzy dashboard, you can create your map in mere minutes without touching a line of code."
+  summary: "Create your map with just a few clicks."
+- title: Open-source and self-hostable
+  description: "Mapzy's source code is fully open-source and available on <a href='https://github.com/mapzy/mapzy'>GitHub</a>. This means that you can host yourself for free with the same features as the managed version and without any restrictions. If you're a developer, you're welcome to contribute Mapzy, too!"
+  summary: "Our code is fully open-source. You can host it yourself for free, if you wish so."
+  image_path: "/assets/images/mapzy_map.png"

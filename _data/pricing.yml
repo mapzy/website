@@ -1,0 +1,9 @@
+- name: Mini
+  price: 9
+  locations: 20
+- name: Medium
+  price: 19
+  locations: 100
+- name: Maxi
+  price: 29
+  locations: 1000
