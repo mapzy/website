@@ -21,3 +21,19 @@
 a {
   @apply underline hover:text-gray-600
 }
+
+ul {
+  @apply list-disc list-inside
+}
+
+p {
+  @apply mb-4
+}
+
+h1 {
+  @apply text-4xl mb-6
+}
+
+h2 {
+  @apply text-2xl mb-4 font-medium
+}
