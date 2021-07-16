@@ -5,11 +5,11 @@ Our static website is built with Jekyll.
 
 ## Development
 
-Install dependencies `yarn install`
+Install dependencies with `yarn install` and `bundle install`.
 
-Build Tailwind `yarn run build-tailwind` (first time or after changing Tailwind)
+Build Tailwind `bundle exec yarn run build-tailwind` (first time or after changing Tailwind)
 
-Run `jekyll server -I`
+Run `bundle exec jekyll server -I`
 
 
 ## Development Quirks
