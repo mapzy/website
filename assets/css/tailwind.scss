@@ -23,7 +23,7 @@ a {
 }
 
 ul {
-  @apply list-disc list-inside
+  @apply list-disc list-inside mb-4
 }
 
 p {
@@ -36,4 +36,8 @@ h1 {
 
 h2 {
   @apply text-2xl mb-4 font-medium
+}
+
+h2 {
+  @apply text-xl mb-4 font-medium
 }

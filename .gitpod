@@ -1,0 +1,21 @@
+image:
+  file: .gitpod.Dockerfile
+
+ports:
+  # Jekyll server
+  - port: 4000
+    onOpen: ignore
+    # PostCSS server
+  - port: 8124
+    onOpen: ignore
+
+tasks:
+  - init: >
+      bundle install &&
+      yarn install &&
+      yarn run build-tailwind &&
+      echo "Run 'jekyll server -I' to start the server. Have fun!" 
+github:
+  prebuilds:
+    branches: false
+    pullRequests: true
