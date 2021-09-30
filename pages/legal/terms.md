@@ -36,7 +36,7 @@ If you are upgrading from a free trial to a paid plan, we will charge you immedi
 
 Paying customers are billed automatically via credit card.
     
-The number of available locations per plan refer to the total amount of active locations in your account. If you add active locations to go over your plan's limit, we will ask you upgrade your plan before being able to activate the additional locations. If you delete locations and go below your plan's limit, we automatically downgrade your plan. We chrge mid-billing cycle changes to your plan pro rata per day. That means for example, if your plan started on June 1, and you upgrade to a bigger plan on June 15, your total cost for the June billing period will be half of the smaller plan plus half of the larger plan.
+The number of available locations per plan refer to the total amount of active locations in your account. If you add active locations to go over your plan's limit, we will ask you upgrade your plan before being able to activate the additional locations. If you delete locations and go below your plan's limit, we automatically downgrade your plan. We charge mid-billing cycle changes to your plan pro rata per day. That means for example, if your plan started on June 1, and you upgrade to a bigger plan on June 15, your total cost for the June billing period will be half of the smaller plan plus half of the larger plan.
 
 There are no surprise fees and your card will never be charged unexpectedly.
 
@@ -77,7 +77,7 @@ You must not modify another website so as to falsely imply that it is associated
 
 ## Privacy and security of your data
 
-We take many measures to protect and secure your data through backups, redundancies, and encryption. When you use our service to add maps and lcoations, you agree that Mapzy may process your data as described in our [data policy](https://mapzy.io/legal/data) and for no other purpose.
+We take many measures to protect and secure your data through backups, redundancies, and encryption. When you use our service to add maps and locations, you agree that Mapzy may process your data as described in our [data policy](https://mapzy.io/legal/data) and for no other purpose.
 
 Each party agrees to handle the other party’s data in accordance with (i) all applicable laws; and (ii) privacy and security measures reasonably adequate to preserve the other party data’s confidentiality and security.
 

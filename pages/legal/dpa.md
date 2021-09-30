@@ -4,9 +4,9 @@ title: "Data Processing Agreement"
 permalink: "/legal/dpa"
 ---
 
-Note: The following DPA applies to Mapzy Cloud only and not to self-hosted which would be hosted on your own servers and therefore the DPA isn’t needed.
+Note: The following DPA applies to Mapzy Cloud only and not to Mapzy Self-Hosted which would be hosted on your own servers and therefore the DPA isn’t needed.
 
-Plausible Analytics is a European company and our data infrastructure is based in Germany covered by the EU's strong data privacy laws. Processing and storing data in a secure, fair, and transparent way is extremely important to us. 
+Mapzy is a European company and our data infrastructure is based in Germany covered by the EU's strong data privacy laws. Processing and storing data in a secure, fair, and transparent way is extremely important to us. 
 
 This Data Processing Agreement (“DPA”) is an addendum to the [Terms of Service](https://mapzy.io/terms) between Mapzy and the customer. 
 
@@ -34,7 +34,7 @@ You entrust us with your data and we take that trust to heart. You agree that Ma
 
 You own all right, title, and interest to your data. We obtain no rights from you to your data. We do not collect and analyze personal information from your data and use these behavioral insights to sell advertisements. When using Mapzy, you 100% own and control all of your website data. We don’t sell or share your site data to any third-parties, and we don’t abuse your visitor’s privacy.
 
-When you embed your Mapzy map on your website, we do not track your visitors or collect any personal information. If your visitors give geolocation permission, we use the browser's built in geolocation feature to get access to the coordinates. However, this data is completely anonymous and not tied to any other data that my be used to identify any single individual.
+When you embed your Mapzy map on your website, we do not track your visitors or collect any personal information. If your visitors give geolocation permission, we use the browser's built in geolocation feature to get access to the coordinates. Our mapping provider, Mapbox, collects some data points from visitors on your site that view the embedded Mapzy map. This data includes your website's visitor's IP address, browser information, and some more data points. See the [Mapbox privacy policy](https://www.mapbox.com/legal/privacy) (Chapter 1.5) for more information. 
 
 All of the data that you upload is kept fully secured, encrypted and hosted on renewable energy powered server in Germany. This ensures that all of the website data is being covered by the European Union’s strict laws on data privacy. Your visitor data never leaves the EU.
 
@@ -110,6 +110,6 @@ No. You are not required to notify us or any third party upon accepting our DPA 
 
 If you have a question about the Data Processing Agreement (DPA), please contact us: bonjour@mapzy.io.
 
-Last updated: July 30, 2021
+Last updated: September 30, 2021
 
 Adapted from the [Plausible's DPA](https://plausible.io/dpa) / [AGPLv3](https://github.com/plausible/analytics/blob/master/LICENSE.md)

@@ -26,6 +26,8 @@ We use the excellent and privacy-friendly [Plausible Analytics](https://plausibl
 
 Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit and more.
 
+We use Mapbox to display embedded maps. Unfortunatley, Mapbox collects some data such as your IP address and browser information when you view an embedded map. We can't turn this off. You can learn mroe in the [Mapbox privacy policy](https://www.mapbox.com/legal/privacy) (see Chapter 1.5).
+
 ## As a customer and subscriber of Mapzy
 
 Our guiding principle is to collect only what we need and that we will solely process this information to provide you with the service you signed up for.
@@ -43,10 +45,9 @@ Here’s what that means in practice:
 * All of the data that we collect is kept fully secured, encrypted and hosted on renewable energy powered server in Frankfurt am Main, Germany. This ensures that all of the site data is being covered by the European Union’s strict laws on data privacy. Your site data never leaves the EU. The server is hosted by DigitalOcean and the data center is owned by Interxion. See [DigitalOcean GDPR policy](https://www.digitalocean.com/legal/gdpr-faq/) for full details.
 * The payment process is handled by a third-party payment provider. If you choose sign up for a Mapzy paid plan, the billing information and the payment process is handled by Stripe. See the [Stripe Privacy Policy](https://stripe.com/privacy) for full details.
 * All emails are sent using a third-party email provider. Transactional emails are sent using OhMySMTP. OhMySMTP disables open and link tracking by default - in fact, they don't even offer an option to track emails. See the [OhMySMTP Privacy Policy](https://ohmysmtp.com/privacy) for full details.
+* We use the open-source and privacy-friendly event tracking software Fugu to track anonymous events on how our users use Mapzy. The goal of this is to better understand how we can improve Mapzy. Fugu is hosted in the EU and doesn't track any data that can be used to single out individuals, such as IP addresses. Learn more in the [Fugu privacy policy](https://fugu.lol/legal/privacy).
 * When you write to us with a question or to ask for help. We keep that correspondence, which includes the email address, so that we have a history of past correspondences to reference if you reach out in the future. We use this data solely in connection with answering the queries we receive.
-* We use Mapbox to display the map, location markers and perform geocoding operations. When you add a location, we use the Mapbox API to get the coordinates. When you view a map in your dashboard or your visitors view an embedded map, Mapzy collects some information
-
-When you or your website visitors search an address in the Mapzy search bar, we also use the Mapbox API to get autocomplete suggestions and get the coordinates of the searched address. Mapbox only sees the address data and doesn't have access to your personal data or any other data you upload to Mapzy. See the [Mapbox privacy policy](https://www.mapbox.com/legal/privacy) for more details.
+* We use Mapbox to display the map, location markers and perform geocoding operations. When you add a location, we use the Mapbox API to get the coordinates. When you view a map in your dashboard, your visitors view an embedded map, or your visitors search an address in the search bar, we also use the Mapbox API. Mapbox collects some data according to their [privacy policy](https://www.mapbox.com/legal/privacy) (see Chapter 1.5). This data includes your website's visitor's IP address, browser information, and some more data points. While we would prefer for Mapbox to not collect any information, it's not possible to disable it. The alternative would be to use Google Maps, which is worse, or create our own mapping service, which is, well, isn't feasible right now. We recommend adding this info and a link to your own privacy policy when you embed a Mapzy map.
 
 ### Retention of data
 
@@ -63,6 +64,6 @@ We may update this policy as needed to comply with relevant regulations and refl
 
 Contact us if you have any questions, comments, or concerns about this privacy policy, your data, or your rights with respect to your information.
 
-Last updated: July 30, 2021
+Last updated: Sept 30, 2021
 
 Adapted from the [Plausible's privacy policy](https://plausible.io/privacy) / [AGPLv3](https://github.com/plausible/analytics/blob/master/LICENSE.md)
