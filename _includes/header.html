@@ -1,15 +1,15 @@
 <header>
 <div class="flex flex-row items-center justify-between w-full py-4 px-8 mb-12">
   <a href="/">
-    <img src="{{ "/assets/images/mapzy_logo.png" | relative_url }}" class="w-20"/>
+    <img src="{{ "/assets/images/mapzy_logo.png" | relative_url }}" class="w-40"/>
   </a>
   <nav class="flex flex-row items-center justify-end w-full">
     {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" class="mx-4" >
+      <a href="{{ item.link }}" class="mx-4 no-underline font-medium hover:text-mapzy-violet-tint">
         {{ item.name }}
       </a>
     {% endfor %}
-    <a href="" class="mx-4">Sign in</a>
+    <a href="" class="mx-4 no-underline font-medium hover:text-mapzy-violet-tint">Sign in</a>
     <a href="" class="button-main mx-4">Start free trial</a>
   </nav>
 </div>
