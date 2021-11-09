@@ -1,0 +1,6 @@
+[build]
+  publish = "_site"
+  command = "bundle exec jekyll build --config _config.yml,_config_tailwind.yml"
+
+[build.environment]
+  JEKYLL_ENV = "production"
