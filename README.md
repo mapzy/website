@@ -2,6 +2,7 @@
 
 Our static website is built with Jekyll.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d89331d6-3259-41b5-b799-afe04f0dbd01/deploy-status)](https://app.netlify.com/sites/focused-bassi-568374/deploys)
 
 ## Development
 
