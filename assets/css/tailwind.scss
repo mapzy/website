@@ -9,17 +9,19 @@
 
 
 .button-main {
-  @apply cursor-pointer h-9 flex items-center justify-center rounded-full
-    bg-mapzy-violet text-white py-5 px-6 no-underline hover:text-white hover:bg-mapzy-violet-tint font-medium
+  @apply cursor-pointer rounded-full bg-mapzy-red text-white font-medium shadow
+    py-2 px-4 flex items-center justify-center no-underline hover:no-underline
+    hover:bg-mapzy-red-light hover:text-white
 }
 
 .button-secondary {
-  @apply cursor-pointer h-9 flex items-center justify-center rounded-full
-    bg-mapzy-blue text-white p-4 no-underline hover:text-gray-200
+  @apply cursor-pointer rounded-full bg-red-50 text-mapzy-red
+  hover:bg-mapzy-red-light hover:text-white 
+  h-12 p-2 flex items-center justify-center no-underline hover:no-underline
 }
 
 a {
-  @apply underline hover:text-gray-400
+  @apply no-underline cursor-pointer text-mapzy-red hover:text-mapzy-red-light font-semibold
 }
 
 ul {
@@ -31,13 +33,21 @@ p {
 }
 
 h1 {
-  @apply text-4xl mb-6
+	@apply text-4xl leading-7 font-bold
+}
+
+.h1--red {
+	@apply text-4xl leading-7 font-bold text-mapzy-red
 }
 
 h2 {
-  @apply text-2xl mb-4 font-medium
+	@apply text-2xl leading-7 font-bold
 }
 
-h2 {
-  @apply text-xl mb-4 font-medium
+.h2--red {
+	@apply text-2xl leading-7 font-bold text-mapzy-red
+}
+
+h3 {
+	@apply text-sm text-gray-800
 }

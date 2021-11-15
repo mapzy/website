@@ -20,6 +20,10 @@
     <meta name="twitter:description" content="{{ page.description }}" />
     <meta name="twitter:url" content="{{ page.url  | absolute_url }}" />
     <meta name="twitter:image" content="{{ "/assets/images/mapzy_logo_square.png" | relative_url }}" />
+
+    {% if jekyll.environment == "production" %}
+      <script defer data-domain="mapzy.io" src="https://plausible.io/js/plausible.outbound-links.js"></script>
+    {% endif %}
   </head>
   <body class="text-gray-800 text-lg">
     {% include_cached header.html %}

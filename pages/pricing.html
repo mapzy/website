@@ -26,20 +26,6 @@ description: "Our aim is to provide a simpe set of features at a fair price, so 
   <a href="https://app.mapzy.io/account/register" class="button-main my-4">Start free trial</a>
 </div>
 
-<div class="text-xl mt-6 font-medium">
-    Included with all plans:
+<div class="text-xl mt-6 font-medium mb-6">
+    All features are included with all plans
 </div>
-
-<div class="flex flex-row flex-wrap justify-center items-center my-2 w-full">
-
-  {% for feature in site.data.features %}
-    {% include single_feature_preview.html
-      title=feature.title
-      summary=feature.summary
-    %}
-  {% endfor %}
-</div>
-
-<p class="text text-gray-600 mb-4">
-  <a href="/features">Learn more about the features</a>
-</p>

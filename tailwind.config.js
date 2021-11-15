@@ -11,8 +11,8 @@ module.exports = {
       colors: {
         'mapzy-orange': '#F99B46',
         'mapzy-violet': '#704DCC',
-        'mapzy-violet-tint': '#7c5cd0',
         'mapzy-red': '#E74D67',
+        'mapzy-red-light': '#EB7085',
         'mapzy-blue': '#62CFFF'
       },
     },

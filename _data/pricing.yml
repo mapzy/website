@@ -2,8 +2,8 @@
   price: 9
   locations: 20
 - name: Medium
-  price: 19
+  price: 29
   locations: 100
 - name: Maxi
-  price: 29
+  price: 49
   locations: 1000

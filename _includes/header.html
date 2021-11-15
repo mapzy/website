@@ -5,11 +5,13 @@
   </a>
   <nav class="flex flex-row items-center justify-end w-full">
     {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" class="mx-4 no-underline font-medium hover:text-mapzy-violet-tint">
-        {{ item.name }}
-      </a>
+      {% if item.name != "Features" %}
+        <a href="{{ item.link }}" class="mx-4 no-underline font-medium text-black">
+          {{ item.name }}
+        </a>
+      {% endif %}
     {% endfor %}
-    <a href="https://app.mapzy.io/account/login" class="mx-4 no-underline font-medium hover:text-mapzy-violet-tint">Sign in</a>
+    <a href="https://app.mapzy.io/account/login" class="mx-4 no-underline font-medium text-black">Sign in</a>
     <a href="https://app.mapzy.io/account/register" class="button-main mx-4">Start free trial</a>
   </nav>
 </div>

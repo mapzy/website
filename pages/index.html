@@ -1,30 +1,53 @@
 ---
 layout: default
-title: "Simple and privacy-friendly store finder"
+title: "Simple and pretty store finder"
 permalink: "/"
-description: "Mapzy let's you add a map with your locations to your
-              website without touching a line of code. It's simple, doesn't track your
-              visitors and is fully open-source."
+description: "Mapzy let's you add a map with your locations to your website without touching
+              a line of code. It's simple, looks great, and doesn't invade your privacy."
 ---
 
 <h1 class="text-4xl mb-4 mt-8">
-  Simple and privacy-friendly <span class="border-b-4 border-mapzy-violet">store finder</span>
+  Simple and pretty <span class="border-b-4 border-mapzy-red-light">store finder</span>
 </h1>
 <div class="text-center">
   <p class="my-4">
-    Mapzy let's you add a map with your locations to your website without touching a line of code. It's simple, doesn't track your visitors and is fully open-source.
+    Mapzy let's you add a map with your locations to your website without touching a line of code.
+    It's simple, looks great, and doesn't invade your privacy.
   </p>
 </div>
 <div class="flex flex-col w-full items-center justify-center text-center">
   <a href="https://app.mapzy.io/account/register" class="button-main my-4">Get started</a>
-  <p class="text-sm text-gray-600">
-    Not ready? <a href="/features">Take a tour of the features</a>
+</div>
+
+<h2 class="text-3xl my-4 font-medium">Here's how it looks like</h2>
+
+<div class="my-4">
+  <iframe
+    src="https://app.mapzy.io/maps/2"
+    title="Map by mapzy.io"
+    loading="lazy"
+    referrerpolicy="no-referrer"
+    height="600px"
+    width="100%"
+  >
+  </iframe>
+</div>
+
+<h2 class="text-3xl mb-4 font-medium">Features</h2>
+
+<div class="text-center">
+  <p class="my-4">
+    Mapzy focuses on doing few things really well. Our goal is that you can add a
+    map with your stores (or any kinds of points) to your website as simply and quickly as
+    possible. Mapzy is privacy-friendly and doesn't use any non-essential
+    cookies, complying fully with GDPR.
   </p>
 </div>
 
-<div>
-  <img
-    src="{{ "/assets/images/mapzy_map.png" | relative_url }}"
-    class="rounded drop-shadow-lg my-8"
-  />
-</div>
+{% for feature in site.data.features %}
+  {% include single_feature.html
+    title=feature.title
+    description=feature.description
+    image_path=feature.image_path
+  %}
+{% endfor %}
