@@ -11,8 +11,8 @@ description: "Mapzy let's you add a map with your locations to your website with
 </h1>
 <div class="text-center">
   <p class="my-4">
-    Mapzy let's you add a map with your locations to your website without touching a line of code.
-    It's simple, looks great, and doesn't invade your privacy.
+    With Mapzy, you can add a beautiful store finder to your website without touching a line of code. <br>
+    It's simple, looks great on every device and doesn't invade your privacy.
   </p>
 </div>
 <div class="flex flex-col w-full items-center justify-center text-center">
@@ -34,21 +34,12 @@ description: "Mapzy let's you add a map with your locations to your website with
   </iframe>
 </div>
 
-<h2 class="text-3xl mb-4 font-medium">Features</h2>
-
-<div class="text-center">
-  <p class="my-4">
-    Mapzy focuses on doing few things really well. Our goal is that you can add a
-    map with your stores (or any kinds of points) to your website as simply and quickly as
-    possible. Mapzy is privacy-friendly and doesn't use any non-essential
-    cookies, complying fully with GDPR.
-  </p>
+<div class="w-full mb-12">
+  {% for feature in site.data.features %}
+    {% include single_feature.html
+      title=feature.title
+      description=feature.description
+      image_path=feature.image_path
+    %}
+  {% endfor %}
 </div>
-
-{% for feature in site.data.features %}
-  {% include single_feature.html
-    title=feature.title
-    description=feature.description
-    image_path=feature.image_path
-  %}
-{% endfor %}

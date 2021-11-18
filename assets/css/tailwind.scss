@@ -10,14 +10,14 @@
 
 .button-main {
   @apply cursor-pointer rounded-full bg-mapzy-red text-white font-medium shadow
-    py-2 px-4 flex items-center justify-center no-underline hover:no-underline
+    py-2 px-6 flex items-center justify-center no-underline hover:no-underline
     hover:bg-mapzy-red-light hover:text-white
 }
 
 .button-secondary {
   @apply cursor-pointer rounded-full bg-red-50 text-mapzy-red
   hover:bg-mapzy-red-light hover:text-white 
-  h-12 p-2 flex items-center justify-center no-underline hover:no-underline
+  py-2 px-6 flex items-center justify-center no-underline hover:no-underline
 }
 
 a {

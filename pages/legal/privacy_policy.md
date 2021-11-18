@@ -26,7 +26,7 @@ We use the excellent and privacy-friendly [Plausible Analytics](https://plausibl
 
 Data collected includes referral sources, top pages, visit duration, information from the devices (device type, operating system, country and browser) used during the visit and more.
 
-We use Mapbox to display embedded maps. Unfortunatley, Mapbox collects some data such as your IP address and browser information when you view an embedded map. We can't turn this off. You can learn mroe in the [Mapbox privacy policy](https://www.mapbox.com/legal/privacy) (see Chapter 1.5).
+We use Mapbox to display embedded maps. Unfortunatley, Mapbox collects some data such as your IP address and browser information when you view an embedded map. We can't turn this off. You can learn more in the [Mapbox privacy policy](https://www.mapbox.com/legal/privacy) (see Chapter 1.5).
 
 ## As a customer and subscriber of Mapzy
 
