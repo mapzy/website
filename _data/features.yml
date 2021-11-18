@@ -1,28 +1,20 @@
 - title: Simple and pretty
-  description: "With the Mapzy dashboard, you can add any location to your map by entering the address.
-                For each location, you can add a description and opening times.
-                We've designed Mapzy so that it looks great on every device and website, so that
-                you don't need to worry about that."
-- title: Embed your map
-  description: "Embedding your map on your own website is a piece of cake.
-                Just copy the displayed embed code and paste it in your website
-                where you want your map to appear.
-                Mapzy works anywhere where you can add HTML - Shopify, Webflow, Squarespace - anything, really."
-- title: No-code
-  description: "Using the Mapzy dashboard, you can create your map in mere minutes without touching a line of code."
-- title: Privacy-friendly
-  description: "We've buit Mapzy with privacy in mind.
-                We only set one essential cookie.
-                While we don't track your visitors, our mapping service provider Mapbox collects
-                some anonymous data. Unfortunately, we can't disable this.
+  description: "We've designed Mapzy so that it looks great on every device and website.
+                It's also very simple to use: your customers won't get lost in a myriad of unnecessary features. Mapzy does a few things, but does them really well."
+- title: No Code Required
+  description: "Using the Mapzy dashboard, you can create your store finder in mere minutes without touching a line of code.
+                Installing your map on your own website is also a piece of cake: just copy the displayed embed code to your website and it's live!
+                Mapzy works on every website - Wordpress, Shopify, Webflow, Squarespace - anything, really."
+- title: Privacy-friendly and GDPR compliant
+  description: "We've buit Mapzy with privacy in mind. We only set one essential cookie, don't track your visitors and will never do.
+                It's worth noting that our mapping service provider - Mapbox - collects
+                some anonymous technical data, that we can not disable.
                 Learn more in our <a href=\"/legal/privacy-policy\">privacy policy</a>.
-                Mapzy is fully compliant with GDPR, and doesn't require you to show an
-                ugly cookie pop-up.
-                We host Mapzy in a data center in Frankfurt, Germany, which is powered
-                by 100% renewable energy."
+                Mapzy is also fully compliant with GDPR, so you don't have to show an
+                ugly cookie pop-up to your customers."
 - title: Open-source and self-hostable
   description: "Mapzy's source code is fully open-source and available on
                 <a href=\"https://github.com/mapzy/mapzy\">GitHub</a>.
-                This means, you can host yourself for free with the same features as
-                the managed version and without any restrictions.
-                If you're a developer, you're welcome to contribute Mapzy, too!"
+                The managed version of Mapzy is hosted on a data center in Frankfurt, Germany, which is powered
+                by 100% renewable energy. But if you'd like, you can also host it yourself for free with the same features and without any restrictions.
+                If you're a developer, you're very welcome to contribute Mapzy, too!"
