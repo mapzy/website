@@ -17,13 +17,9 @@ These service terms incorporate the Mapzy Data Processing Agreement” (“DPA�
 ## Definitions
 
 * “You” or “customer” refers to the company or organization that signs up to use the Mapzy to create maps.
-
 * In the course of providing the Mapzy service to customer pursuant to the agreement, Mapzy may process data uploaded by the customer.
-
 * In this Data Processing Agreement (“DPA”), “Data Protection Legislation” means the General Data Protection Regulation (Regulation (EU) 2016/279), and all other applicable laws relating to processing of visitor data and privacy that may exist in any relevant jurisdiction.
-
 * “data controller”, “data processor”, “data subject”, “personal data” and “processing” shall be interpreted in accordance with applicable Data Protection Legislation.
-
 * The parties agree that customer is the data controller and that Mapzy is its data processor in relation to map and location data that is processed in the course of providing the service.
 
 ## Privacy and security of your visitor data
@@ -47,19 +43,12 @@ You can find more information about our processing of your data in our publicly 
 ## Processor’s obligations with respect to the controller
 
 * Mapzy will process visitor data only in accordance with instructions from customer through the settings of the service, i.e. (a) to operate, maintain and support the infrastructure used to provide the service; (b) to comply with customer’s instructions and processing instructions in their use, management and administration of the service; (c) as otherwise instructed through settings of the service. Mapzy will only process data in accordance with the agreement.
- 
 * Mapzy shall notify customer without undue delay if, in Mapzy’s opinion, an instruction for the processing of data given by customer infringes applicable Data Protection Legislation.
-
 * Mapzy shall guarantee the confidentiality of visitor data processed hereunder.
-
 * We as humans can access your data to help you with support requests you make and to maintain and safeguard Mapzy to ensure the security of your data and the service as a whole. Mapzy shall ensure that all Mapzy personnel required to access the visitor data are informed of the confidential nature of the data and comply with the obligations sets out in this agreement.
-
 * Mapzy shall implement and maintain appropriate technical and organisational security measures designed to protect the visitor data against unauthorised or unlawful processing and against accidental loss, destruction, damage, theft, alteration or disclosure. These measures shall be appropriate to the harm which might result from any unauthorised or unlawful processing, accidental loss, destruction, damage or theft of the visitor data and having regard to the nature of the visitor data which is to be protected.
-
 * We do work with sub-processors. We've listed links to our current sub-processors in our [privacy policy](https://mapzy.io/privacy). With each vendor, we assess their commitment to privacy and we sign a data processing agreement with them that include the controller-processor Standard Contractual Clauses. Any such subcontractors will be permitted to process data only to deliver the services Mapzy has retained them to provide, and they shall be prohibited from using data for any other purpose. 
-
 * If Mapzy becomes aware of any accidental, unauthorised or unlawful security breach, destruction, loss, alteration, or disclosure of the personal data that is processed by Mapzy in the course of providing the service, it shall without undue delay (not later than 48 hours after having become aware of it), notify customer by email and provide customer with a description of the incident as well as periodic updates to information about the incident, including its impact on customer content. Mapzy shall additionally take action to investigate the incident and reasonably prevent or mitigate the effects of the incident.
-
 * Mapzy shall not on its own authority rectify, erase or restrict the processing of visitor data that is being processed on behalf of the controller (unless this is required by law or the Processor Terms of Service), but shall only do so on documented instructions from the controller and in accordance to the data retention rules associated to the controller subscription plan.
 
 ## How we handle delete instructions
@@ -71,18 +60,12 @@ All your stats will be permanently deleted immediately when you delete your Mapz
 ## Customer undertakings and Mapzy assistance
 
 * Customer warrants that it has all necessary rights to provide to Mapzy the visitor data for processing in connection with the provision of the Mapzy Services.
-
 * Customer shall comply at all times with Data Protection Legislations in respect of all visitor data it provided to Mapzy pursuant to the Agreement.
-
 * Customer understands, as a controller, that it is responsible (as between customer and Mapzy) for:
-
-1. determining the lawfulness of any processing, performing any required data protection impact assessments, and accounting to regulators and individuals, as may be needed;
-
-2. providing relevant privacy notices to data subjects as may be required in your jurisdiction;
-
-3. implementing your own appropriate technical and organizational measures to ensure and demonstrate processing in accord with this DPA;
-
-4. notifying any relevant regulators or authorities of any incident as may be required by law in your jurisdiction.
+  1) determining the lawfulness of any processing, performing any required data protection impact assessments, and accounting to regulators and individuals, as may be needed;
+  2) providing relevant privacy notices to data subjects as may be required in your jurisdiction;
+  3) implementing your own appropriate technical and organizational measures to ensure and demonstrate processing in accord with this DPA;
+  4) notifying any relevant regulators or authorities of any incident as may be required by law in your jurisdiction.
 
 ## Liability and Indemnity
 
@@ -91,7 +74,6 @@ All your stats will be permanently deleted immediately when you delete your Mapz
 ## Duration and Termination
 
 * The DPA is effective as of July 30, 2021 and replaces and supersedes any previously agreed data processing agreement between you and Plausible Analytics relating to the GDPR. 
-
 * Termination or expiration of this DPA shall not discharge the parties from the confidentiality obligations herein.
 
 ## Are customers required to sign the Plausible Analytics DPA?

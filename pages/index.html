@@ -6,10 +6,10 @@ description: "Mapzy let's you add a map with your locations to your website with
               a line of code. It's simple, looks great, and doesn't invade your privacy."
 ---
 
-<h1 class="text-4xl mb-4 mt-8">
+<h1 class="text-center text-4xl mb-4 mt-8 px-10">
   Simple and pretty <span class="border-b-4 border-mapzy-red-light">store finder</span>
 </h1>
-<div class="text-center">
+<div class="text-justify px-10 md:text-center">
   <p class="my-4">
     With Mapzy, you can add a beautiful store finder to your website without touching a line of code. <br>
     It's simple, looks great on every device and doesn't invade your privacy.
@@ -21,7 +21,7 @@ description: "Mapzy let's you add a map with your locations to your website with
 
 <h2 class="text-2xl mt-6 mb-4 font-medium">Here's how it looks like</h2>
 
-<div class="w-full my-4">
+<div class="w-full my-4 mx-10 px-10">
   <iframe
     src="https://app.mapzy.io/maps/2"
     allow="geolocation"
@@ -30,12 +30,11 @@ description: "Mapzy let's you add a map with your locations to your website with
     referrerpolicy="no-referrer"
     height="600px"
     width="100%"
-    class="rounded"
   >
   </iframe>
 </div>
 
-<div class="w-full mb-12">
+<div class="w-full px-10 mb-12">
   {% for feature in site.data.features %}
     {% include single_feature.html
       title=feature.title

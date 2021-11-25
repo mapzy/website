@@ -1,9 +1,9 @@
 <header>
-<div class="flex flex-row items-center justify-between w-full pt-2 px-16 mb-12">
+<div class="flex flex-col md:flex-row items-center justify-between w-full pt-2 px-16 mb-12">
   <a href="/">
     <img src="{{ "/assets/images/logo.png" | relative_url }}" class="h-16"/>
   </a>
-  <nav class="flex flex-row items-center justify-end w-full">
+  <nav class="hidden md:flex md:flex-row md:pt-0 items-center justify-end w-full">
     {% for item in site.data.navigation %}
       {% if item.name != "Features" %}
         <a href="{{ item.link }}" class="mx-4 no-underline font-medium text-black">

@@ -7,19 +7,6 @@
 
 @import "tailwindcss/utilities";
 
-
-.button-main {
-  @apply cursor-pointer rounded-full bg-mapzy-red text-white font-medium shadow
-    py-2 px-6 flex items-center justify-center no-underline hover:no-underline
-    hover:bg-mapzy-red-light hover:text-white
-}
-
-.button-secondary {
-  @apply cursor-pointer rounded-full bg-red-50 text-mapzy-red
-  hover:bg-mapzy-red-light hover:text-white 
-  py-2 px-6 flex items-center justify-center no-underline hover:no-underline
-}
-
 a {
   @apply no-underline cursor-pointer text-mapzy-red hover:text-mapzy-red-light font-semibold
 }
@@ -33,21 +20,25 @@ p {
 }
 
 h1 {
-	@apply text-4xl leading-7 font-bold
-}
-
-.h1--red {
-	@apply text-4xl leading-7 font-bold text-mapzy-red
+  @apply text-4xl leading-7 font-bold
 }
 
 h2 {
-	@apply text-2xl leading-7 font-bold
-}
-
-.h2--red {
-	@apply text-2xl leading-7 font-bold text-mapzy-red
+  @apply text-2xl leading-7 font-bold
 }
 
 h3 {
-	@apply text-sm text-gray-800
+  @apply text-sm text-gray-800
+}
+
+.button-main {
+  @apply cursor-pointer rounded-full bg-mapzy-red text-white font-medium shadow
+    py-2 px-6 flex items-center justify-center no-underline hover:no-underline
+    hover:bg-mapzy-red-light hover:text-white
+}
+
+.button-secondary {
+  @apply cursor-pointer rounded-full bg-red-50 text-mapzy-red
+  hover:bg-mapzy-red-light hover:text-white
+  py-2 px-6 flex items-center justify-center no-underline hover:no-underline
 }
