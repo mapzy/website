@@ -7,8 +7,6 @@
 
 @import "tailwindcss/utilities";
 
-// Base styles
-
 a {
   @apply no-underline cursor-pointer text-mapzy-red hover:text-mapzy-red-light font-semibold
 }
@@ -22,18 +20,17 @@ p {
 }
 
 h1 {
-	@apply text-4xl leading-7 font-bold
+  @apply text-4xl leading-7 font-bold
 }
 
 h2 {
-	@apply text-2xl leading-7 font-bold
+  @apply text-2xl leading-7 font-bold
 }
 
 h3 {
-	@apply text-sm text-gray-800
+  @apply text-sm text-gray-800
 }
 
-// Buttons & Links
 .button-main {
   @apply cursor-pointer rounded-full bg-mapzy-red text-white font-medium shadow
     py-2 px-6 flex items-center justify-center no-underline hover:no-underline
