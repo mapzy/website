@@ -16,13 +16,12 @@
 
     <div class="flex flex-col justify-start items-start px-10">
       <!-- Only on small devices -->
-      <div class="md:hidden">
+      <div class="flex flex-col justify-start items-start md:hidden">
         {% for item in site.data.navigation %}
           {% if item.name != "Features" %}
-            <a href="{{ item.link }}" class="text-white py-0.5">
+            <a href="{{ item.link }}" class="text-white">
               {{ item.name }}
             </a>
-            <br>
           {% endif %}
         {% endfor %}
       </div>
@@ -32,7 +31,6 @@
         <a class="text-white" href="{{ item.link }}" >
           {{ item.name }}
         </a>
-        <br>
       {% endfor %}
 
       <p class="pt-2">
