@@ -9,4 +9,10 @@
       class="rounded drop-shadow-lg my-8"
     />
   {% endif %}
-</div>
+  {% if include.video_path %}
+    <video width="100%" controls class="rounded drop-shadow-lg my-8 w-full max-w-3xl mx-auto">
+      <source src="{{ include.video_path | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  {% endif %}
+  </div>

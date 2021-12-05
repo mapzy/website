@@ -4,7 +4,9 @@
 - title: No code required
   description: "Using the Mapzy dashboard, you can create your store finder in mere minutes without touching a line of code.
                 Installing your map on your own website is also a piece of cake: just copy the displayed embed code to your website and it's live!
-                Mapzy works on every website - Wordpress, Shopify, Webflow, Squarespace - anything, really."
+                Mapzy works on every website - Wordpress, Shopify, Webflow, Squarespace - anything, really.<br><br>
+                This is how you add a location to your map:"
+  video_path: "/assets/videos/mapzy_add_location.mp4"
 - title: Privacy-friendly and GDPR compliant
   description: "We've buit Mapzy with privacy in mind. We only set one essential cookie, don't track your visitors and will never do.
                 It's worth noting that our mapping service provider - Mapbox - collects
