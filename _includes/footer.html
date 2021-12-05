@@ -18,11 +18,9 @@
       <!-- Only on small devices -->
       <div class="flex flex-col justify-start items-start md:hidden">
         {% for item in site.data.navigation %}
-          {% if item.name != "Features" %}
-            <a href="{{ item.link }}" class="text-white">
-              {{ item.name }}
-            </a>
-          {% endif %}
+          <a href="{{ item.link }}" class="text-white">
+            {{ item.name }}
+          </a>
         {% endfor %}
       </div>
 

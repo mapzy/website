@@ -1,5 +1,5 @@
-- name: Features
-  link: /features
+- name: Docs
+  link: https://docs.mapzy.io
 - name: Pricing
   link: /pricing
 - name: About
