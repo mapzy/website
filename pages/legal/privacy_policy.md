@@ -7,7 +7,7 @@ permalink: "/legal/privacy-policy"
 
 **TL;DR:** For mapzy.io visitors, we do not use cookies and we do not collect any personal data. If you decide to create an account, we ask for the bare minimum and only share it with services that are absolutely necessary for the app to function.
 
-At Mapzy, we are committed to complying with GDPR, CCPA, PECR and other privacy regulations on our website and on our store finder product, too. The privacy of your data — and it is your data, not ours! — is a big deal to us.
+At Mapzy, we are committed to complying with GDPR, CCPA, PECR and other privacy regulations on our website and on our store locator product, too. The privacy of your data — and it is your data, not ours! — is a big deal to us.
 
 In this policy, we lay out what data we collect and why, how your data is handled and your rights to your data. We promise we never sell your data: never have, never will.
 
