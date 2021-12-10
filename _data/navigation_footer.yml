@@ -1,3 +1,5 @@
+- name: About
+  link: /about
 - name: Privacy Policy
   link: /legal/privacy-policy
 - name: Terms
